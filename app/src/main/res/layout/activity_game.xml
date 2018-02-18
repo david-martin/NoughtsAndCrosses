@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.dmkube.noughtsandcrosses.GameActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/row1col1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/border"
+                android:gravity="fill"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:tag="1"
+                tools:text="X" />
+
+            <TextView
+                android:id="@+id/row1col2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/border"
+                android:gravity="fill"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:tag="2"
+                tools:text="X" />
+
+            <TextView
+                android:id="@+id/row1col3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/border"
+                android:gravity="fill"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:tag="4"
+                tools:text="X" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/row2col1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/border"
+                android:gravity="fill"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:tag="8"
+                tools:text="X" />
+
+            <TextView
+                android:id="@+id/row2col2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/border"
+                android:gravity="fill"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:tag="16"
+                tools:text="X" />
+
+            <TextView
+                android:id="@+id/row2col3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/border"
+                android:gravity="fill"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:tag="32"
+                tools:text="X" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/row3col1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/border"
+                android:gravity="fill"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:tag="64"
+                tools:text="X" />
+
+            <TextView
+                android:id="@+id/row3col2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/border"
+                android:gravity="fill"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:tag="128"
+                tools:text="X" />
+
+            <TextView
+                android:id="@+id/row3col3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/border"
+                android:gravity="fill"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:tag="256"
+                tools:text="X" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
